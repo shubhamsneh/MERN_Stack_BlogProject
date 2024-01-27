@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Home = () => {
+const About = () => {
   return (
     <div>
-    <h1 className='sm:text-5xl text-3xl font-serif font-extrabold my-0'> Welcome To My Blog </h1>
+    <h1 className='sm:text-5xl text-3xl font-serif font-extrabold my-0'>About </h1>
         <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-900'>Active learning: How to accelerate AI model training</h1>
         <p className='mx-auto leading-relaxed text-base mb-4'>
         Let’s face it: training an AI model isn’t much fun.
@@ -42,4 +42,4 @@ Our active learning approach—combined with the no-code, fully-guided user inte
   )
 }
 
-export default Home
+export default About
